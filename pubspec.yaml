@@ -1,0 +1,25 @@
+name: aps
+description: APS - PDF reader by Mejba Limited
+publish_to: none
+version: 3.35.0+335
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  syncfusion_flutter_pdfviewer: ^27.1.48
+  file_picker: ^8.1.2
+  shared_preferences: ^2.3.2
+  path_provider: ^2.1.4
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.1
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon.png
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/icon.png
+  adaptive_icon_background: "#0F4C45"
+  adaptive_icon_foreground: assets/icon_fg.png
